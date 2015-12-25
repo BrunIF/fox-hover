@@ -24,6 +24,10 @@
           jQuery(".descr").slideToggle(400);
         });
 
+        jQuery("#tutor-btn").click(function() {
+          jQuery(".tutor").slideToggle(400);
+        });
+
         jQuery(".html-code pre").snippet("html",{style:"vim-dark"});
         jQuery(".css-code pre").snippet("css",{style:"vim-dark"});
 
@@ -53,7 +57,7 @@
       <nav>
         <button id="use-btn" type="button"><i class="fa fa-cogs"></i> How to Use</button>
         <a href="https://github.com/eisenfox/fox-hover" title="Download Full HTMl/CSS Files"><i class="fa fa-arrow-down"></i>Download Full HTMl/CSS Files</a>
-        <a href="#" title="Tutorial"><i class="fa fa-pencil"></i>Tutorial (Coming soon)</a>
+        <a id="tutor-btn" href="#" title="Tutorial"><i class="fa fa-pencil"></i>Tutorials</a>
       </nav>
       <div class="descr">
         <ul>
@@ -70,6 +74,17 @@
             Push button "CSS" under the effect you want to use. Add this code to your CSS file.
           </li>
         </ul>
+      </div>
+      <div class="tutor">
+        <ul>
+          <li>
+            <i class="fa fa-pencil"></i>
+            <a href="http://habrahabr.ru/post/265451/" title="RU Tutorial">RU Tutorial</a>
+          </li>
+          <li>
+            <i class="fa fa-pencil"></i>
+            EN Tutorial (coming soon)
+          </li>
       </div>
       <div class="addthis_sharing_toolbox"></div>
       <div class="effect-pack effect-1" id="ef1">

@@ -134,11 +134,13 @@ nav a i,
   padding-right: 5px;
 }
 
-.descr {
+.descr,
+.tutor {
   display: none;
 }
 
-.descr ul {
+.descr ul,
+.tutor ul {
   padding: 10px;
   color: white;
   background: black;
@@ -146,7 +148,17 @@ nav a i,
   margin-top: 0px;
 }
 
-.descr ul li {
+.tutor ul {
+  width: 300px;
+}
+
+.tutor ul a {
+  color: white;
+  text-decoration: underline;
+}
+
+.descr ul li,
+.tutor ul li {
   font-size: 16px;
 }
 
